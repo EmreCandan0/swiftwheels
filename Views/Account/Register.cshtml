@@ -1,0 +1,57 @@
+﻿@model SwiftWheels.Models.User
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card shadow-lg p-4" style="min-width: 400px;">
+        <h3 class="text-center mb-4">Create an Account</h3>
+
+        @if (ViewBag.RegisterSuccess == true)
+        {
+            <div class="alert alert-success text-center">
+                Kayıt başarılı! Giriş sayfasına yönlendiriliyorsunuz...
+            </div>
+            <script>
+                setTimeout(function () {
+                    window.location.href = '@Url.Action("Login", "Account")';
+                }, 3000);
+            </script>
+        }
+        else
+        {
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Error</div>
+            }
+
+            <form asp-action="Register" method="post">
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Surname"></label>
+                    <input asp-for="Surname" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhoneNumber"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Register</button>
+                <a asp-action="Login" class="btn btn-link btn-block">Already have an account? Login</a>
+            </form>
+        }
+    </div>
+</div>

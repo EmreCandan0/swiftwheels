@@ -1,0 +1,48 @@
+﻿@model List<SwiftWheels.Models.Vehicle>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Vehicle List";
+}
+
+<h2>Vehicles</h2>
+
+@if (User.IsInRole("ROLE_ADMIN"))
+{
+    <a asp-action="Create" class="btn btn-success mb-3">+ Add Vehicle</a>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var v in Model)
+        {
+            <tr>
+                <td>@v.Make</td>
+                <td>@v.Model</td>
+                <td>@v.Year</td>
+                <td>@v.Price ₺</td>
+                <td>@(v.Availability ? "Available" : "Rented Today")</td>
+                <td>
+                    @if (User.IsInRole("ROLE_ADMIN"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@v.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@v.Id" class="btn btn-sm btn-danger">Delete</a>
+                    }
+                    else if (User.IsInRole("ROLE_USER"))
+                    {
+                        <a asp-controller="RentedVehicle" asp-action="Create" asp-route-id="@v.Id" class="btn btn-sm btn-primary">Kirala</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

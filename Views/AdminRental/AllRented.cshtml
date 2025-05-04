@@ -1,0 +1,39 @@
+﻿@model List<SwiftWheels.Models.RentedVehicle>
+
+@{
+    ViewData["Title"] = "All Rentals";
+    Layout = "_Layout";
+}
+
+<h2>All Rentals</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Vehicle</th>
+            <th>User</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Total Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Vehicle.Make @r.Vehicle.Model</td>
+                <td>@r.User.Name @r.User.Surname</td>
+                <td>@r.StartDate.ToShortDateString()</td>
+                <td>@r.EndDate.ToShortDateString()</td>
+                <td>@r.TotalPrice ₺</td>
+                <td>
+                    <form asp-controller="AdminRental" asp-action="Delete" method="post" onsubmit="return confirm('Bu kiralamayı silmek istediğinize emin misiniz?');">
+                        <input type="hidden" name="id" value="@r.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

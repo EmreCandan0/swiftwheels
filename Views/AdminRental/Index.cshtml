@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5 text-center">
+    <h2 class="mb-4">Admin Panel</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Vehicle" asp-action="Index" class="btn btn-outline-primary btn-lg btn-block">
+                Araç Listesi (Kullanıcı Görünümü)
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="AdminRental" asp-action="AllRented" class="btn btn-outline-success btn-lg btn-block">
+                Tüm Kiralanan Araçlar
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="User" asp-action="List" class="btn btn-outline-dark btn-lg btn-block">
+                Kullanıcıları Listele / Düzenle
+            </a>
+        </div>
+    </div>
+</div>

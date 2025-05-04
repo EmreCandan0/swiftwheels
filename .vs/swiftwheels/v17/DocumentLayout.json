@@ -1,0 +1,593 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\controllers\\adminrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:controllers\\adminrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\adminrental\\allrented.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\adminrental\\allrented.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\adminrental\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\adminrental\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\controllers\\rentedvehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:controllers\\rentedvehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\models\\rentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:models\\rentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\rentedvehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\rentedvehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\rentedvehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\rentedvehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emrec\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\buildTransitive\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\migrations\\20250503134758_addrentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:migrations\\20250503134758_addrentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\migrations\\20250503122859_createnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:migrations\\20250503122859_createnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|c:\\users\\emrec\\desktop\\web\\swiftwheels\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A99DE1C-9A92-4C0C-94F5-021CB3DA0BB9}|SwiftWheels.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\User\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\List.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\User\\List.cshtml",
+              "RelativeToolTip": "Views\\User\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T13:02:01.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:01:09.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AllRented.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\AdminRental\\AllRented.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminRental\\AllRented.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\AdminRental\\AllRented.cshtml",
+              "RelativeToolTip": "Views\\AdminRental\\AllRented.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:57:27.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RentedVehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\RentedVehicleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RentedVehicleController.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\RentedVehicleController.cs",
+              "RelativeToolTip": "Controllers\\RentedVehicleController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:48:20.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:12:35.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T13:02:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:23:36.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\AdminRental\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminRental\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\AdminRental\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminRental\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:24:47.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminRentalController.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\AdminRentalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminRentalController.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\AdminRentalController.cs",
+              "RelativeToolTip": "Controllers\\AdminRentalController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:22:15.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:58:47.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "Controllers\\VehicleController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:05:57.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:05:25.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RentedVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\RentedVehicle.cs",
+              "RelativeDocumentMoniker": "Models\\RentedVehicle.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\RentedVehicle.cs",
+              "RelativeToolTip": "Models\\RentedVehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:47:14.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:57:16.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Models\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:04:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:37:46.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\RentedVehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\RentedVehicle\\Create.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\RentedVehicle\\Create.cshtml",
+              "RelativeToolTip": "Views\\RentedVehicle\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T14:29:26.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\RentedVehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RentedVehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\RentedVehicle\\Index.cshtml",
+              "RelativeToolTip": "Views\\RentedVehicle\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:48:59.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:04:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vehicle\\Create.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Create.cshtml",
+              "RelativeToolTip": "Views\\Vehicle\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:29:24.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vehicle\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Vehicle\\Delete.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:53:59.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vehicle\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Vehicle\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:46:58.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vehicle\\index.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Vehicle\\index.cshtml",
+              "RelativeToolTip": "Views\\Vehicle\\index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:07:47.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:10:13.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:51:26.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:08:17.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "System.Runtime.CompilerServices.Unsafe.targets",
+              "DocumentMoniker": "C:\\Users\\emrec\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\buildTransitive\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\buildTransitive\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.targets",
+              "ToolTip": "C:\\Users\\emrec\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\buildTransitive\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\buildTransitive\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-03T17:26:38.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs",
+              "RelativeToolTip": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\RentedVehicle\\Create.cshtml.g.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBsAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:30:44.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:00:08.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250503134758_AddRentedVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Migrations\\20250503134758_AddRentedVehicle.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250503134758_AddRentedVehicle.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Migrations\\20250503134758_AddRentedVehicle.cs",
+              "RelativeToolTip": "Migrations\\20250503134758_AddRentedVehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:47:59.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs",
+              "RelativeToolTip": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Edit.cshtml.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:49:02.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml.g.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs",
+              "RelativeToolTip": "obj\\Debug\\netcoreapp2.1\\Razor\\Views\\Vehicle\\Create.cshtml.g.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:12:41.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T12:16:58.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250503122859_CreateNew.cs",
+              "DocumentMoniker": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Migrations\\20250503122859_CreateNew.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250503122859_CreateNew.cs",
+              "ToolTip": "C:\\Users\\emrec\\Desktop\\web\\swiftwheels\\Migrations\\20250503122859_CreateNew.cs",
+              "RelativeToolTip": "Migrations\\20250503122859_CreateNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:28:59.894Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

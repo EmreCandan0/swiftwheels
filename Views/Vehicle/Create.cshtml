@@ -1,0 +1,63 @@
+﻿@model SwiftWheels.Models.Vehicle
+
+@{
+    Layout = "_Layout";
+}
+@{
+    ViewData["Title"] = "Create Vehicle";
+}
+
+<h2>Create Vehicle</h2>
+    
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="VehicleType"></label>
+        <input asp-for="VehicleType" class="form-control" />
+        <span asp-validation-for="VehicleType" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Make"></label>
+        <input asp-for="Make" class="form-control" />
+        <span asp-validation-for="Make" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Model"></label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Year"></label>
+        <input asp-for="Year" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Km"></label>
+        <input asp-for="Km" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Color"></label>
+        <input asp-for="Color" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EnginePower"></label>
+        <input asp-for="EnginePower" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EngineCapacity"></label>
+        <input asp-for="EngineCapacity" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Fuel"></label>
+        <input asp-for="Fuel" class="form-control" />
+    </div>
+    <div class="form-check">
+        <input asp-for="Availability" class="form-check-input" id="chkAvailable" />
+        <label class="form-check-label" for="chkAvailable">Available</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

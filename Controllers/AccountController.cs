@@ -7,6 +7,9 @@ using System.Security.Claims;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
+using System;
 
 namespace SwiftWheels.Controllers
 {
@@ -19,6 +22,17 @@ namespace SwiftWheels.Controllers
             _context = context;
         }
 
+        // SHA256 hash fonksiyonu (tüm işlemlerde kullanılacak)
+        private string HashPassword(string password)
+        {
+            using (var sha = SHA256.Create())
+            {
+                var bytes = Encoding.UTF8.GetBytes(password);
+                var hash = sha.ComputeHash(bytes);
+                return Convert.ToBase64String(hash);
+            }
+        }
+
         [HttpGet]
         public IActionResult Login()
         {
@@ -28,13 +42,21 @@ namespace SwiftWheels.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string email, string password)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
             if (user == null)
             {
-                ViewBag.Error = "Invalid credentials.";
+                ViewBag.Error = "Geçersiz kullanıcı.";
                 return View();
             }
 
+            var hashed = HashPassword(password);
+            if (user.Password != hashed)
+            {
+                ViewBag.Error = "Geçersiz e-posta veya şifre.";
+                return View();
+            }
+
+            // Giriş başarılı → cookie oturum oluştur
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Email),
@@ -47,18 +69,11 @@ namespace SwiftWheels.Controllers
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-            // ✅ Login sonrası hoş geldin mesajı
-            TempData["LoginSuccess"] = $"Welcome back, {user.Name} {user.Surname}!";
+            TempData["LoginSuccess"] = $"Hoş geldin, {user.Name} {user.Surname}!";
 
-            if (user.Roles == "ROLE_ADMIN")
-                return RedirectToAction("Index", "AdminRental");
-            else
-                return RedirectToAction("Index", "Vehicle");
-        }
-
-        public IActionResult AccessDenied()
-        {
-            return View();
+            return user.Roles == "ROLE_ADMIN"
+                ? RedirectToAction("Index", "AdminRental")
+                : RedirectToAction("Index", "Vehicle");
         }
 
         public async Task<IActionResult> Logout()
@@ -72,14 +87,13 @@ namespace SwiftWheels.Controllers
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Register(User newUser)
         {
             if (!ModelState.IsValid)
-            {
                 return View(newUser);
-            }
 
             if (_context.Users.Any(u => u.Email == newUser.Email))
             {
@@ -87,15 +101,22 @@ namespace SwiftWheels.Controllers
                 return View(newUser);
             }
 
-            newUser.Roles = "ROLE_USER";
-            newUser.SystemUser = false;
+            // SHA256 ile hashle
+            newUser.Password = HashPassword(newUser.Password);
+
+            newUser.Roles = newUser.Email.ToLower() == "admin@swiftwheels.com" ? "ROLE_ADMIN" : "ROLE_USER";
+            newUser.SystemUser = newUser.Roles == "ROLE_ADMIN";
 
             _context.Users.Add(newUser);
             _context.SaveChanges();
 
             ViewBag.RegisterSuccess = true;
-            return View(); // Login'e yönlendirmiyoruz!
+            return View();
         }
 
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

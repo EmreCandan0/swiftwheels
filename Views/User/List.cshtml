@@ -30,9 +30,79 @@
                 <td>@user.Email</td>
                 <td>@user.PhoneNumber</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Düzenle</a>
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                    <a href="#" class="btn btn-sm btn-danger ml-2" onclick="confirmDelete(@user.Id, '@user.Name @user.Surname')">Sil</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<!-- ✅ Silme Onay Modali -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form id="deleteForm" method="post">
+                @Html.AntiForgeryToken()
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title">Kullanıcıyı Sil</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p><strong id="userToDeleteName"></strong> adlı kullanıcıyı silmek istediğinize emin misiniz?</p>
+                    <input type="hidden" name="id" id="deleteUserId" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                    <button type="submit" class="btn btn-danger">Evet, Sil</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ✅ Toast bildirimi -->
+<div class="toast position-fixed bottom-0 right-0 m-3" id="successToast" data-delay="2500">
+    <div class="toast-header bg-success text-white">
+        <strong class="mr-auto">Başarılı</strong>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+    </div>
+    <div class="toast-body">
+        Kullanıcı başarıyla silindi.
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        console.log("Script yüklendi");
+        function confirmDelete(id, fullName) {
+            $('#deleteUserId').val(id);
+            $('#userToDeleteName').text(fullName);
+            $('#deleteModal').modal('show');
+        }
+
+        $('#deleteForm').submit(function (e) {
+            e.preventDefault();
+
+            var userId = $('#deleteUserId').val();
+            var token = $('input[name="__RequestVerificationToken"]').val();
+
+            $.ajax({
+                url: '/User/Delete/' + userId,
+                type: 'POST',
+                headers: {
+                    'RequestVerificationToken': token
+                },
+                success: function () {
+                    $('#deleteModal').modal('hide');
+                    $('#successToast').toast({ delay: 2500 }); // başlat
+                    $('#successToast').toast('show');         // göster
+                    setTimeout(() => location.reload(), 2000);
+                },
+                error: function () {
+                    alert('Silme işlemi başarısız oldu.');
+                }
+            });
+        });
+    </script>
+}

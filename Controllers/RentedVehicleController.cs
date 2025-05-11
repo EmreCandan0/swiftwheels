@@ -62,8 +62,6 @@ public IActionResult Create(int id)
         if (vehicle == null || user == null)
             return NotFound();
 
-        
-        // Tarih çakışma kontrolü
         bool tarihCakisiyor = _context.RentedVehicles.Any(rv =>
             rv.VehicleId == rented.VehicleId &&
             rented.StartDate < rv.EndDate &&
@@ -88,6 +86,17 @@ public IActionResult Create(int id)
         _context.RentedVehicles.Add(rented);
         _context.SaveChanges();
 
-        return RedirectToAction("Index", "Vehicle");
+        // ✅ Mesaj ekle
+        TempData["RentalSuccess"] = "Kiralama başarılı! Ana sayfaya yönlendiriliyorsunuz...";
+
+        return RedirectToAction("RentalSuccess");
     }
+
+    [HttpGet]
+    public IActionResult RentalSuccess()
+    {
+        return View();
+    }
+
+
 }

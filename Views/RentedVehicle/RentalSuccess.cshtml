@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Kiralama Başarılı";
+    Layout = "_Layout";
+}
+
+@if (TempData["RentalSuccess"] != null)
+{
+    <div class="alert alert-success text-center mt-5" role="alert">
+        <h4>@TempData["RentalSuccess"]</h4>
+    </div>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = '/Vehicle/Index';
+        }, 2000); // 2 saniye sonra yönlendirme
+    </script>
+}
+else
+{
+    <script>
+        window.location.href = '/Vehicle/Index';
+    </script>
+}

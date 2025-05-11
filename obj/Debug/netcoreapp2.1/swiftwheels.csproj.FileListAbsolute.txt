@@ -17,7 +17,6 @@ C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Rente
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Vehicle\Create.cshtml.g.cs
-C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Vehicle\Delete.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Vehicle\Edit.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Vehicle\index.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -38,3 +37,9 @@ C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\SwiftWhe.332058A8
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\AdminRental\AllRented.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\User\Edit.cshtml.g.cs
 C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\User\List.cshtml.g.cs
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\SwiftWheels.sourcelink.json
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\Vehicle\Details.cshtml.g.cs
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\User\Profile.cshtml.g.cs
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\emrec\Desktop\web\swiftwheels\obj\Debug\netcoreapp2.1\Razor\Views\RentedVehicle\RentalSuccess.cshtml.g.cs

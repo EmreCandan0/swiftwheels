@@ -1,0 +1,62 @@
+﻿@model SwiftWheels.Models.Vehicle
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Vehicle Details";
+}
+
+<h2 class="mb-4 text-center">@Model.Make @Model.Model</h2>
+
+<div class="card shadow-lg p-4">
+    <div class="row">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <img src="@Model.ImagePath" alt="Araç Fotoğrafı" class="img-fluid rounded" style="max-height: 400px;" />
+            }
+            else
+            {
+                <p>No Image Available</p>
+            }
+        </div>
+
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-5">Marka</dt>
+                <dd class="col-sm-7">@Model.Make</dd>
+
+                <dt class="col-sm-5">Model</dt>
+                <dd class="col-sm-7">@Model.Model</dd>
+
+                <dt class="col-sm-5">Üretim Yılı</dt>
+                <dd class="col-sm-7">@Model.Year</dd>
+
+                <dt class="col-sm-5">Kilometre</dt>
+                <dd class="col-sm-7">@Model.Km km</dd>
+
+                <dt class="col-sm-5">Renk</dt>
+                <dd class="col-sm-7">@Model.Color</dd>
+
+                <dt class="col-sm-5">Yakıt Türü</dt>
+                <dd class="col-sm-7">@Model.Fuel</dd>
+
+                <dt class="col-sm-5">Motor Gücü</dt>
+                <dd class="col-sm-7">@Model.EnginePower</dd>
+
+                <dt class="col-sm-5">Motor Hacmi</dt>
+                <dd class="col-sm-7">@Model.EngineCapacity</dd>
+
+                <dt class="col-sm-5">Fiyat</dt>
+                <dd class="col-sm-7">@Model.Price ₺</dd>
+
+                <dt class="col-sm-5">Durum</dt>
+                <dd class="col-sm-7">@(Model.Availability ? "Müsait" : "Kiralanmış")</dd>
+            </dl>
+
+            <div class="mt-4">
+                <a asp-controller="RentedVehicle" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-success btn-lg">Kirala</a>
+                <a asp-action="Index" class="btn btn-outline-secondary btn-lg ml-2">← Geri</a>
+            </div>
+        </div>
+    </div>
+</div>

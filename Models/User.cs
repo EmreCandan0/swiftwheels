@@ -6,18 +6,24 @@ namespace SwiftWheels.Models
     {
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Ad gerekli.")]
         public string Name { get; set; }
-        public string Surname { get; set; }
-       
 
-        [Required]
+        [Required(ErrorMessage = "Soyad gerekli.")]
+        public string Surname { get; set; }
+
+        [Required(ErrorMessage = "E-posta gerekli.")]
+        [EmailAddress(ErrorMessage = "Geçerli bir e-posta adresi girin.")]
         public string Email { get; set; }
 
+        [Phone(ErrorMessage = "Geçerli bir telefon numarası girin.")]
         public string PhoneNumber { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Şifre gerekli.")]
+        [MinLength(6, ErrorMessage = "Şifre en az 6 karakter olmalıdır.")]
         public string Password { get; set; }
 
-        public string Roles { get; set; } // Örn: "ROLE_ADMIN", "ROLE_USER"
+        public string Roles { get; set; }
 
         public bool SystemUser { get; set; }
     }

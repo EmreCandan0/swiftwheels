@@ -5,14 +5,25 @@
 <head>
     <meta charset="utf-8" />
     <title>@ViewData["Title"] - SwiftWheels</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+
+    <!-- Lokal Bootstrap bağlantısı -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
     @RenderSection("Styles", required: false)
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">SwiftWheels</a>
-        <div class="collapse navbar-collapse">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand" asp-controller="Vehicle" asp-action="Index">SwiftWheels</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav mr-auto">
                 @if (User.Identity.IsAuthenticated && User.IsInRole("ROLE_USER"))
                 {
@@ -26,25 +37,32 @@
                         <a class="nav-link" asp-controller="Vehicle" asp-action="Index">Vehicles</a>
                     </li>
                 }
-                @if (User.IsInRole("ROLE_ADMIN"))
+                @if (User.Identity.IsAuthenticated && User.IsInRole("ROLE_ADMIN"))
                 {
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="AdminRental" asp-action="Index">Admin Panel</a>
                     </li>
                 }
-
             </ul>
 
             <ul class="navbar-nav ml-auto">
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <li class="nav-item">
-                        <span class="navbar-text">
-                            Merhaba, @User.FindFirst(ClaimTypes.GivenName)?.Value
-                        </span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user-circle"></i> @User.FindFirst(ClaimTypes.GivenName)?.Value
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right p-3 shadow" aria-labelledby="profileDropdown" style="min-width: 220px;">
+                            <p class="small mb-2 text-muted">
+                                <strong>E-posta:</strong><br />
+                                @User.Identity.Name
+                            </p>
+                            <a class="btn btn-sm btn-outline-primary w-100 mb-2" asp-controller="User" asp-action="Profile">Profilim</a>
+                            <a class="btn btn-sm btn-outline-secondary w-100 mb-2" asp-controller="User" asp-action="ChangePassword">Şifre Değiştir</a>
+                            <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-sm btn-danger w-100">Çıkış Yap</button>
+                            </form>
+                        </div>
                     </li>
                 }
                 else
@@ -85,8 +103,11 @@
         @RenderBody()
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>

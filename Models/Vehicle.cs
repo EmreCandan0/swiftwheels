@@ -31,6 +31,6 @@ namespace SwiftWheels.Models
 
         public string Fuel { get; set; }
 
-        public byte[] Image { get; set; }
+        public string ImagePath { get; set; }
     }
 }

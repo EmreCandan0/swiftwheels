@@ -9,6 +9,8 @@ public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
     {
+
+
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer("Server=CANDAN\\SQLEXPRESS01;Database=SwiftWheelsDB;Trusted_Connection=True;"));
 

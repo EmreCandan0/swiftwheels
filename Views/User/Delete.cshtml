@@ -1,0 +1,28 @@
+﻿@model SwiftWheels.Models.User
+@{
+    ViewData["Title"] = "Kullanıcıyı Sil";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm p-4">
+        <h3 class="text-danger">Bu kullanıcıyı silmek istediğinize emin misiniz?</h3>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">Ad Soyad</dt>
+            <dd class="col-sm-9">@Model.Name @Model.Surname</dd>
+
+            <dt class="col-sm-3">E-Posta</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Rol</dt>
+            <dd class="col-sm-9">@Model.Roles</dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">Evet, Sil</button>
+            <a asp-action="List" class="btn btn-secondary ml-2">İptal</a>
+        </form>
+    </div>
+</div>

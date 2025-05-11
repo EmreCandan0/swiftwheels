@@ -55,7 +55,8 @@ namespace SwiftWheels.Migrations
                     b.Property<string>("Email")
                         .IsRequired();
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.Property<string>("Password")
                         .IsRequired();
@@ -64,7 +65,8 @@ namespace SwiftWheels.Migrations
 
                     b.Property<string>("Roles");
 
-                    b.Property<string>("Surname");
+                    b.Property<string>("Surname")
+                        .IsRequired();
 
                     b.Property<bool>("SystemUser");
 
@@ -89,7 +91,7 @@ namespace SwiftWheels.Migrations
 
                     b.Property<string>("Fuel");
 
-                    b.Property<byte[]>("Image");
+                    b.Property<string>("ImagePath");
 
                     b.Property<int>("Km");
 

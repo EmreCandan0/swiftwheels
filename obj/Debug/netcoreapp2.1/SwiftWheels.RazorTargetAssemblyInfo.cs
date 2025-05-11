@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwiftWheels")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e78c07e461cc12598fc2bc4a46cc959ee9e2933b")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwiftWheels.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
